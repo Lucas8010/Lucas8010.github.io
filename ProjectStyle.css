@@ -3,6 +3,11 @@
     color: white;
 }
 
+#ProjectPages {
+    text-decoration: none;
+    font: ;
+}
+
 body{
     margin: auto 0;
     font-family: "Courier New", Courier, monospace;
@@ -20,11 +25,12 @@ li {
     padding: 20px;
 }
 
-#first {
+#MainHeader {
     font-size: 2em;
     padding-top: 3em;
     color: "";
     font-family: "";
+    display: flex-end;
 }
 p {
     font-size: 0.1em
@@ -101,11 +107,6 @@ p {
 
 .cover {
     width: 30rem;
-}
-
-footer {
-    text-align: center;
-    color: white;
 }
 
 #footer {
