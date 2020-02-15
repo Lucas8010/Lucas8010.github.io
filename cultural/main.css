@@ -1,0 +1,189 @@
+body{
+    margin: auto 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.title {
+    padding-left: auto;
+    color: white;
+    margin: auto;
+    font-size: 1em;
+    font-family:;
+    font-style:;
+}
+/*Images*/
+img {
+    display: flex;
+    margin: 0px 0px 5px 0px}
+
+.id-images {
+    width: 600px;
+    height: 200px;
+}
+
+.css-id-images {
+    width: 600px;
+    height: 400px;
+}
+
+.class-img {
+    width: 600px;
+    height: 150px;
+}
+
+.box-img {
+    width: 275px;
+    height: 150px;
+}
+
+.zone-img {
+    width: 300px;
+    height: 150px ;
+}
+.zone {
+    color: #1C0155;
+    font-size:2em;
+    border-radius:;
+    /*border:1px solid #1C0155;*/
+    transition: all 0.2s linear;
+}
+
+li {
+    padding: 20px;
+}
+.HeaderAnchor {
+    color: white;
+    text-decoration: none;
+}
+
+/*Main Nav*/
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0em;
+    z-index: 999;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+    h1 {
+        font-size: 0.5em;
+        padding: 0;
+    }
+    .title {
+    padding-right: 100px;
+    color: white;
+    margin: auto;
+    font-size: 1em;
+    }
+    #footer  {
+        font-size: 0.8em;
+        padding: auto;
+        height: 0.5em;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+/*color*/
+
+.purple {
+    background: #0f0329; /* Old browsers */
+    background: -moz-linear-gradient(top, #1C0155 0%, #0f0329 44%, #0f0329 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,##0f0329), color-stop(100%,#0f0329)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1C0155 0%,#0f0329 44%,#0f0329 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1C0155 0%,#0f0329 44%,#0f0329 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1C0155 0%,#0f0329 44%,#0f0329 100%); /* IE10+ */
+    background: linear-gradient(top, #1C0155 0%,#0f0329 44%,#0f0329 100%); /* W3C */
+}
+
+/*Grid*/
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
+}
+
+.box {
+    background: #f1f1f1;
+    padding: auto;
+    margin: auto;
+    height: 115em;
+    width: 100%;
+    display: inline-flex;
+}
+
+/*#box1:hover {
+    transform: scale(1.005);
+}*/
+
+#box1 {
+    background: white;
+    justify-content: "";
+    padding: 15px;
+    margin: 75px 0px 0px 10px;
+    height: 111.35em;
+    width: 100%;
+
+    -webkit-box-shadow:rgba(0,0,0,2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+/*Content*/
+.content-header {
+    margin: auto;
+    color: #3A2929;
+    padding: "";
+    text-decoration: none;
+    justify-content: flex;
+}
+
+.sub-content {
+    padding: 10px 0px 0px 0px;
+    margin: auto;
+    color: black;
+    font-size: 0.5em;
+}
+
+.example {
+font-size: 0.5em;
+padding: 0px 0px 0px 0px;
+margin: -25px 0px 0px 0px;
+text-decoration: underline overline;
+font-weight: bold;
+}
+
+/*Footer*/
+.footer {
+    background: #0f0329; /* Old browsers */
+    background: -moz-linear-gradient(top, #0f0329 0%, #0f0329 80%, #1C0155 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0f0329), color-stop(80%,#0f0329), color-stop(100%,#1C0155)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #0f0329 0%,#0f0329 80%,#1C0155 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #0f0329 0%,#0f0329 80%,#1C0155 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #0f0329 0%,#0f0329 80%,#1C0155 100%); /* IE10+ */
+    background: linear-gradient(top, #0f0329 0%,#0f0329 80%,#1C0155 100%); /* W3C */
+    
+    position: ;
+    display: flex;
+    height: 3.5em;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+}

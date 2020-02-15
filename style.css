@@ -56,10 +56,12 @@ p {
         font-size: 0.5em;
         padding: 0;
     }
-    h1 {
-        font-size: 0.5em;
-        padding: 0;
-    }
+    #first {
+    font-size: 1.2em;
+    padding-top: 3em;
+    color: "";
+    font-family: "";
+}
     #footer  {
         font-size: 0.8em;
         padding: auto;
@@ -67,6 +69,10 @@ p {
         bottom: 0;
         position: absolute;
         width: 100%;
+    }
+    p {
+        font-size: 0.7em;
+        padding: 0;
     }
 }
 
@@ -122,10 +128,6 @@ footer {
     width: 100%;
     bottom: 0;
     clear: both;
-}
-
-.dark {
-
 }
 
 .purple {
