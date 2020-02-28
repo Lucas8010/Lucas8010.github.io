@@ -12,34 +12,27 @@ body{
     font-style:;
 }
 /*Images*/
-img {
+#JS-Photo {
     display: flex;
-    margin: 0px 0px 5px 0px}
+    justify-content: flex-end; 
+    padding-top: 10px;
+}
 
-.id-images {
-    width: 600px;
+.small {
+    width: 400px;
     height: 200px;
 }
 
-.css-id-images {
-    width: 600px;
-    height: 400px;
+.medium {
+    height: 300px;
+    width: 500px;
 }
 
-.class-img {
-    width: 600px;
-    height: 150px;
+.lefty {
+    padding: 0px 0px 0px 10px;
+    margin: auto;
 }
 
-.box-img {
-    width: 275px;
-    height: 150px;
-}
-
-.zone-img {
-    width: 300px;
-    height: 150px ;
-}
 .zone {
     color: #1C0155;
     font-size:2em;
@@ -76,13 +69,14 @@ li {
         font-size: 0.5em;
         padding: 0;
     }
+    }
     .title {
     padding-right: 100px;
     color: white;
     margin: auto;
     font-size: 1em;
     }
-    .footer  {
+    #footer  {
         font-size: 0.8em;
         padding: auto;
         height: 0.5em;
@@ -120,9 +114,10 @@ li {
     background: #f1f1f1;
     padding: auto;
     margin: auto;
-    height: 40em;
+    height: 53em;
     width: 100%;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 
 /*#box1:hover {
@@ -131,25 +126,12 @@ li {
 
 #box1 {
     background: white;
-    justify-content: "";
-    padding: 15px;
+/*    display: flex;
+    justify-content: center;*/
+    padding: auto;
     margin: 75px 0px 0px 10px;
-    height: 30em;
-    width: 50%;
-
-    -webkit-box-shadow:rgba(0,0,0,2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
-
-#box2 {
-    background: white;
-    justify-content: "";
-    padding: 15px;
-    margin: 75px 0px 0px 10px;
-    height: 30em;
-    width: 50%;
+    height: 50em;
+    width: 99%;
 
     -webkit-box-shadow:rgba(0,0,0,2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
@@ -159,16 +141,16 @@ li {
 
 .content-header {
     margin: auto;
-    padding: "";
+    padding: 25px 0px 0px 15px;
     text-decoration: underline;
     justify-content: flex;
 }
 
 .sub-content {
-    padding: 10px 0px 0px 0px;
+    padding: 20px 0px 0px 15px;
     margin: auto;
     color: black;
-    font-size: 0.5em;
+    font-size: 0.55em;
 }
 
 .example {
@@ -189,9 +171,9 @@ font-weight: bold;
     background: -ms-linear-gradient(top, #0f0329 0%,#0f0329 80%,#1C0155 100%); /* IE10+ */
     background: linear-gradient(top, #0f0329 0%,#0f0329 80%,#1C0155 100%); /* W3C */
     
-    position: ;
+    position: "";
     display: flex;
-    height: 3.5em;
+    height: 4em;
     width: 100%;
     bottom: 0;
     clear: both;

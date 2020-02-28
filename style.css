@@ -1,4 +1,4 @@
-#HeaderAnchor {
+.HeaderAnchor {
     text-decoration: none;
     color: white;
 }
@@ -78,6 +78,8 @@ p {
 
 .push {
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*Cover*/
